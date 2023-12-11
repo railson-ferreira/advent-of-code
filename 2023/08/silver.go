@@ -35,8 +35,8 @@ func main() {
 	currentNode := aaaNode
 	stepsSum := 0
 	for currentNode.value != "ZZZ" {
-		for _, intruction := range instructions {
-			currentNode = currentNode.step(direction(intruction))
+		for _, instruction := range instructions {
+			currentNode = currentNode.step(direction(instruction))
 			stepsSum++
 			if currentNode.value == "ZZZ" {
 				break

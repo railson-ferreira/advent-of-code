@@ -1,4 +1,4 @@
 # advent-of-code
 My Advent Of Code solutions
 
-![Preview](preview.gif)
+![Preview](2023/16/view.gif)
